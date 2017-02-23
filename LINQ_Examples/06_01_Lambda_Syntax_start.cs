@@ -209,8 +209,12 @@ namespace LINQ_Examples
             Console.WriteLine();
             Console.WriteLine("Exercise 4:");
             Console.WriteLine("Part 1:");
-            Console.WriteLine();
+            Console.WriteLine();    
+
+            Console.WriteLine(customers);
             customers.Sort();
+            Console.WriteLine();
+            Console.WriteLine(customers);
 
             Console.ReadKey();
         }
